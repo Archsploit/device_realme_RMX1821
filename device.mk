@@ -20,6 +20,11 @@ DEVICE_PACKAGE_OVERLAYS += \
 	$(DEVICE_PATH)/overlay \
 	$(DEVICE_PATH)/overlay-pe
 
+# MTK IMS Overlays
+PRODUCT_PACKAGES += \
+    mtk-ims \
+    mtk-ims-telephony
+
 # Dependencies of kpoc_charger
 PRODUCT_PACKAGES += \
     libsuspend \
@@ -116,5 +121,4 @@ PRODUCT_COPY_FILES += \
 # Freeform Multiwindow
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.freeform_window_management.xml
-
 
