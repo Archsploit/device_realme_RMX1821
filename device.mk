@@ -125,7 +125,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, vendor/mediatek-ims/ims-vendor.mk)
 
 # EngineerMode
-$(call inherit-product, vendor/mediatek/ims/mtk-engi.mk)
+#$(call inherit-product, vendor/mediatek/ims/mtk-engi.mk)
 
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/realme/RMX1821/RMX1821-vendor.mk)
