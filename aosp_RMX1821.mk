@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common PE stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES:= 720
 
 # Inherit from Realme RMX1821
 $(call inherit-product, device/realme/RMX1821/device.mk)
