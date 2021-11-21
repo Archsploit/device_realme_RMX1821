@@ -17,9 +17,9 @@
 DEVICE_PATH := device/realme/RMX1821
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_RMX1821.mk 
+    $(LOCAL_DIR)/aosp_RMX1821.mk 
 
 COMMON_LUNCH_CHOICES := \
-    stag_RMX1821-user \
-    stag_RMX1821-userdebug \
-    stag_RMX1821-eng
+    aosp_RMX1821-user \
+    aosp_RMX1821-userdebug \
+    aosp_RMX1821-eng
