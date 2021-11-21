@@ -142,8 +142,8 @@ void vendor_load_properties()
     init_variant_specific_props();
 
     // fingerprint
-    property_override("ro.build.description", "redfin-user 11 RQ3A.210905.001 7511028 release-keys");
-    property_override_prop("ro.build.fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
+    property_override("ro.build.description", "raven-user 12 SD1A.210817.036 7805805 release-keys");
+    property_override_prop("ro.build.fingerprint", "google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys");
 
     // Workaround SafetyNet
     workaround_snet_properties();
