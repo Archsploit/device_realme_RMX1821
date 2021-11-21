@@ -133,6 +133,9 @@ $(call inherit-product-if-exists, vendor/realme/RMX1821/RMX1821-vendor.mk)
 # Parts
 $(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
 
+#Dirac
+$(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
+
 # Misc
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.controls.xml:system/etc/permissions/android.software.controls.xml
