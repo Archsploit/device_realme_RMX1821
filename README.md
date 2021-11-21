@@ -19,21 +19,24 @@ Front Camera | 13 MP, f/2.0, (wide), 1/3.1", 1.12µm
 
 ---
 
-This device tree can be used to build Stag OS Android11 for Realme 3/3i devices with RealmeUI vendor
+This device tree can be used to build Pixel Experience Android12 for Realme 3/3i devices with RealmeUI vendor
 
-## Applying [patches](https://github.com/CyberTechWorld/android_device_realme_RMX1821/tree/nad11/patches) in their respective directories of ROM source is mandatory.
+## Applying [patches](https://github.com/CyberTechWorld/android_device_realme_RMX1821/PE-12/patches) in their respective directories of ROM source is mandatory.
 
 ## For IMS,
-## clone [vendor_mediatek_ims](https://github.com/PixelExperience/vendor_mediatek_ims) into vendor/mediatek/ims and
-## clone [vendor_mediatek_interfaces](https://github.com/PixelExperience/vendor_mediatek_interfaces) into vendor/mediatek/interfaces
+## clone [vendor_mediatek-ims](https://github.com/CyberTechWorld/vendor_mediatek-ims) into vendor/mediatek-ims
 ```
-git clone https://github.com/PixelExperience/vendor_mediatek_ims vendor/mediatek/ims
-git clone https://github.com/PixelExperience/vendor_mediatek_interfaces vendor/mediatek/interfaces
+git clone https://github.com/CyberTechWorld/vendor_mediatek-ims vendor/mediatek-ims
 ```
 ## For Reame Parts : clone [android_packages_apps_RealmeParts](https://github.com/techyminati/android_packages_apps_RealmeParts) into packages/apps/RealmeParts
 ```
-git clone https://github.com/CyberTechWorld/android_packages_apps_RealmeParts -b Q-11 packages/apps/RealmeParts
+git clone https://github.com/CyberTechWorld/android_packages_apps_RealmeParts -b S-12 packages/apps/RealmeParts
 ```
-## For Realme Dirac : clone [android_packages_apps_RealmeDirac](https://github.com/techyminati/android_packages_apps_RealmeDirac) into packages/apps/RealmeDirac
+## For Realme Dirac : clone [android_packages_apps_RealmeDirac](https://github.com/CyberTechWorld/android_packages_apps_RealmeDirac) into packages/apps/RealmeDirac
 ```
 git clone https://github.com/CyberTechWorld/android_packages_apps_RealmeDirac -b master packages/apps/RealmeDirac
+```
+## For Compiling Kernel : clone [clang-r353983c1](https://github.com/CyberTechWorld/clang-r353983c1) into prebuilts/clang/host/linux-x86/clang-r353983c1
+```
+git clone https://https://github.com/CyberTechWorld/clang-r353983c1 prebuilts/clang/host/linux-x86/clang-r353983c1
+```
