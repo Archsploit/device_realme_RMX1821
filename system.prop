@@ -142,3 +142,6 @@ dalvik.vm.dex2oat-threads=8
 dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7
 dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+
+# RIL
+persist.sys.fflag.override.settings_provider_model=false
