@@ -38,5 +38,5 @@ git clone https://github.com/CyberTechWorld/android_packages_apps_RealmeDirac -b
 ```
 ## For Compiling Kernel : clone [clang-r353983c1](https://github.com/CyberTechWorld/clang-r353983c1) into prebuilts/clang/host/linux-x86/clang-r353983c1
 ```
-git clone https://https://github.com/CyberTechWorld/clang-r353983c1 prebuilts/clang/host/linux-x86/clang-r353983c1
+git clone https://github.com/CyberTechWorld/clang-r353983c1 prebuilts/clang/host/linux-x86/clang-r353983c1
 ```
