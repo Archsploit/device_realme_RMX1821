@@ -35,6 +35,9 @@ mediatek.wlan.ctia=0
 # Fingerprint
 fingerprint.nocleanup=true
 
+# Blur on app-launch
+ro.launcher.blur.appLaunch=0
+
 #
 wifi.tethering.interface=ap0
 #
