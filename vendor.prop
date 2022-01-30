@@ -1,2 +1,5 @@
 # Render
 debug.renderengine.backend=skiaglthreaded
+
+# Graphics
+ro.vendor.perf.scroll_opt=true
