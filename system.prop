@@ -134,7 +134,6 @@ ro.lmk.psi_complete_stall_ms=150
 ro.lmk.swap_free_low_percentage=20
 ro.lmk.kill_timeout_ms=100
 
-
 # Dex
 dalvik.vm.dex2oat64.enabled=true
 persist.bg.dexopt.enable=true
@@ -151,3 +150,6 @@ persist.sys.fflag.override.settings_provider_model=false
 
 # System
 persist.sys.binary_xml=false
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
