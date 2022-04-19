@@ -20,10 +20,6 @@ PRODUCT_COPY_FILES := \
 	$(DEVICE_PATH)/configs/permissions/privapp-permission-whitelist-com.android.settings.xml:$(TARGET_COPY_OUT_SYSTEM)/system_ext/etc/permissions/privapp-permission-whitelist-com.android.settings.xml \
 	$(DEVICE_PATH)/configs/permissions/privapp-permission-whitelist-com.android.systemui.xml:$(TARGET_COPY_OUT_SYSTEM)/system_ext/etc/permissions/privapp-permission-whitelist-com.android.systemui.xml
 
-# GCam
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
 	$(DEVICE_PATH)/overlay \
