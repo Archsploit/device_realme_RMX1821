@@ -1,0 +1,2 @@
+# Render
+debug.renderengine.backend=skiaglthreaded
