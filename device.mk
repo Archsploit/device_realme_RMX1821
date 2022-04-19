@@ -19,10 +19,6 @@ PRODUCT_COPY_FILES := \
 	$(DEVICE_PATH)/configs/permissions/privapp-permissions-whitelist-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-whitelist-system.xml \
 	$(DEVICE_PATH)/configs/permissions/privapp-permission-whitelist-com.android.settings.xml:$(TARGET_COPY_OUT_SYSTEM)/system_ext/etc/permissions/privapp-permission-whitelist-com.android.settings.xml \
 	$(DEVICE_PATH)/configs/permissions/privapp-permission-whitelist-com.android.systemui.xml:$(TARGET_COPY_OUT_SYSTEM)/system_ext/etc/permissions/privapp-permission-whitelist-com.android.systemui.xml
-# Notch Cutout
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay \
-    NotchBarKiller
 
 # GCam
 PRODUCT_PACKAGES += \
@@ -32,9 +28,6 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
 	$(DEVICE_PATH)/overlay \
 	$(DEVICE_PATH)/overlay-pe
-
-PRODUCT_PACKAGES += \
-    NotchBarKiller
 
 # Dependencies of kpoc_charger
 PRODUCT_PACKAGES += \
