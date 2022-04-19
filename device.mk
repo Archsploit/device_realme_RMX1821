@@ -31,7 +31,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
 	$(DEVICE_PATH)/overlay \
-	$(DEVICE_PATH)/overlay-lineage
+	$(DEVICE_PATH)/overlay-pe
 
 PRODUCT_PACKAGES += \
     NotchBarKiller
