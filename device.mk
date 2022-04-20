@@ -101,10 +101,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # IMS
-$(call inherit-product, vendor/mediatek-ims/ims-vendor.mk)
-
-# EngineerMode
-#$(call inherit-product, vendor/mediatek/ims/mtk-engi.mk)
+$(call inherit-product, vendor/realme/RMX1821-ims/RMX1821-ims.mk)
 
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/realme/RMX1821/RMX1821-vendor.mk)
