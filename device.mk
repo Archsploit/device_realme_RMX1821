@@ -20,10 +20,18 @@ DEVICE_PACKAGE_OVERLAYS += \
 	$(DEVICE_PATH)/overlay \
 	$(DEVICE_PATH)/overlay-pe
 
-# MTK IMS Overlays
+# Telephony
+PRODUCT_BOOT_JARS += \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common
+
 PRODUCT_PACKAGES += \
-    mtk-ims \
-    mtk-ims-telephony
+    ImsServiceBase
 
 # Dependencies of kpoc_charger
 PRODUCT_PACKAGES += \
