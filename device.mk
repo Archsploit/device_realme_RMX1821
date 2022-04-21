@@ -67,8 +67,7 @@ PRODUCT_PACKAGES += \
     init.RMX1821.rc \
     init.oppo.fingerprints.rc \
     init.ago.rc \
-    fstab.enableswap \
-    perf_profile.sh
+    fstab.enableswap
 
 # Fingerprint
 PRODUCT_PACKAGES += \
