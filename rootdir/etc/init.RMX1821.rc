@@ -21,10 +21,6 @@ on boot
     # Enable oppo's touchpanel direction
     write /proc/touchpanel/oppo_tp_direction 1
 
-    # DT2W
-    chmod 0660 /proc/touchpanel/double_tap_enable
-    chown system system /proc/touchpanel/double_tap_enable
-
     # Disable edge limit control interface
     write /proc/touchpanel/oppo_tp_limit_enable 0
 
@@ -55,3 +51,9 @@ on post-fs
     # (at post-fs, the fstab has already been used to mount the partitions,
     #  so it is fine to just revert back)
     umount /vendor/etc/fstab.mt6771
+
+on property:persist.sys.dt2w=0
+    write /proc/touchpanel/double_tap_enable 0
+
+on property:persist.sys.dt2w=1
+    write /proc/touchpanel/double_tap_enable 1

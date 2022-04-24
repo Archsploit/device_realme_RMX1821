@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ImsInit
 
+# DT2W
+PRODUCT_PACKAGES += \
+    DT2W-Service-RMX1821
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.mt6771 \
