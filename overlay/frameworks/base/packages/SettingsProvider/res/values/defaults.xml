@@ -26,4 +26,8 @@
 
     <!-- Disable haptic feedback by default -->
     <bool name="def_haptic_feedback">false</bool>
+
+    <!-- Set animation scale to 70% by default -->
+    <fraction name="def_window_animation_scale">70%</fraction>
+    <fraction name="def_window_transition_scale">70%</fraction>
 </resources>
