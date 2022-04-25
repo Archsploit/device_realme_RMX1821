@@ -30,4 +30,7 @@
     <!-- Set animation scale to 70% by default -->
     <fraction name="def_window_animation_scale">70%</fraction>
     <fraction name="def_window_transition_scale">70%</fraction>
+
+    <!-- Default for Settings.Secure.WAKE_GESTURE_ENABLED -->
+    <bool name="def_wake_gesture_enabled">false</bool>
 </resources>
