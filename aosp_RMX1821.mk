@@ -12,6 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common PE stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Pe stuffs
+TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES:= 720
 
