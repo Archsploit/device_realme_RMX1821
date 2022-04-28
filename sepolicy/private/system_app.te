@@ -1,3 +1,6 @@
 # Allow system_app to read fps info node
 allow system_app sysfs_fps:dir search;
 allow system_app sysfs_fps:file r_file_perms;
+
+#DT2W
+set_prop(system_app, dt2w_prop)
