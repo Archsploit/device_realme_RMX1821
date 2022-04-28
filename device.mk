@@ -24,11 +24,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     ImsServiceBase
 
-# Dependencies of kpoc_charger
-PRODUCT_PACKAGES += \
-    libsuspend \
-    android.hardware.health@2.0
-
 # Input Configs
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/configs/input/idc/AVRCP.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/AVRCP.idc \
@@ -83,7 +78,6 @@ PRODUCT_PACKAGES += \
 
 # Symbols
 PRODUCT_PACKAGES += \
-    libshim_showlogo \
     libshim_vtservice
 
 # Face Unlock
