@@ -1,7 +1,7 @@
-# Realme 3/3i Device Tree
+# Device Configuration For Realme 3/3i
 Realme 3/3i (RMX1821, RMX1823, RMX1825, RMX1827) are mid-range smartphones launched by Realme in March and July of 2019 respectively
 
-![Realme 3/3i](https://fdn2.gsmarena.com/vv/bigpic/realme-3.jpg "Realme 3/3i")
+![Realme 3/3i](https://fdn2.gsmarena.com/vv/pics/realme/realme-3-2.jpg "Realme 3/3i")
 
 ### Specifications
 
@@ -21,22 +21,13 @@ Front Camera | 13 MP, f/2.0, (wide), 1/3.1", 1.12µm
 
 This device tree can be used to build Pixel Experience Android12 for Realme 3/3i devices with RealmeUI vendor
 
-## Applying [patches](https://github.com/CyberTechWorld/android_device_realme_RMX1821/PE-12/patches) in their respective directories of ROM source is mandatory.
+## Applying [patches](https://github.com/Archsploit/device_realme_RMX1821/tree/twelve/patches) in their respective directories of ROM source is mandatory.
 
-## For IMS,
-## clone [vendor_mediatek-ims](https://github.com/CyberTechWorld/vendor_mediatek-ims) into vendor/mediatek-ims
+## For IMS : clone [vendor_realme_RMX1821-ims](https://github.com/Archsploit/vendor_realme_RMX1821-ims) into vendor/realme/RMX1821-ims
 ```
-git clone https://github.com/CyberTechWorld/vendor_mediatek-ims vendor/mediatek-ims
+git clone https://github.com/Archsploit/vendor_realme_RMX1821-ims -b twelve vendor/realme/RMX1821-ims
 ```
-## For Reame Parts : clone [android_packages_apps_RealmeParts](https://github.com/techyminati/android_packages_apps_RealmeParts) into packages/apps/RealmeParts
+## For Reame Parts : clone [android_packages_apps_RealmeParts](https://github.com/Archsploit/android_packages_apps_RealmeParts) into packages/apps/RealmeParts
 ```
-git clone https://github.com/CyberTechWorld/android_packages_apps_RealmeParts -b S-12 packages/apps/RealmeParts
-```
-## For Realme Dirac : clone [android_packages_apps_RealmeDirac](https://github.com/CyberTechWorld/android_packages_apps_RealmeDirac) into packages/apps/RealmeDirac
-```
-git clone https://github.com/CyberTechWorld/android_packages_apps_RealmeDirac -b master packages/apps/RealmeDirac
-```
-## For Compiling Kernel : clone [clang-r353983c1](https://github.com/CyberTechWorld/clang-r353983c1) into prebuilts/clang/host/linux-x86/clang-r353983c1
-```
-git clone https://github.com/CyberTechWorld/clang-r353983c1 prebuilts/clang/host/linux-x86/clang-r353983c1
+git clone https://github.com/Archsploit/android_packages_apps_RealmeParts -b twelve packages/apps/RealmeParts
 ```
