@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES := \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
 	$(DEVICE_PATH)/overlay \
-	$(DEVICE_PATH)/overlay-pe
+	$(DEVICE_PATH)/overlay-lineage
 
 # ImsServiceBase
 PRODUCT_PACKAGES += \
